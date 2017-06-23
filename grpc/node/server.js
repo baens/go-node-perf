@@ -1,7 +1,7 @@
 const PROTO_PATH = __dirname + '/../message.proto';
 
 var grpc = require('grpc');
-var hello_proto = grpc.load(PROTO_PATH).helloworld;
+var hello_proto = grpc.load(PROTO_PATH).message;
 
 /**
  * Implements the SayHello RPC method.
